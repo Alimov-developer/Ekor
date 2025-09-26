@@ -564,6 +564,9 @@ body {
   margin-bottom: 20px;
 }
 
+.con
+
+
 .hero-btn {
   background: #ffcc00;
   color: #333;
@@ -754,10 +757,11 @@ body {
   }
 }
 
-<<<<<<< HEAD
 .container3{
-width: 1200px;
-height: 722px;
+max-width: 1200px;
+
+margin: 20px auto;
+
 
 }
 .p1{
@@ -820,7 +824,6 @@ margin-right: 120px;
 .p5{
 margin-right: 125px;
 }
-=======
 
 
 
@@ -867,4 +870,3 @@ margin-right: 125px;
 
 
 
->>>>>>> 081623553d4e83285a5a16e586d2361191196344
