@@ -605,13 +605,10 @@ body {
   font-size: 16px;
   border-radius: 6px;
 
-  display: inline-block;
-  transition: 0.3s;
+  
 }
 
-.hero-btn:hover {
-  background: #ffdb4d;
-}
+
 
 .hero img {
   flex: 1;
