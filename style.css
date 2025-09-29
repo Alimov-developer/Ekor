@@ -1,4 +1,5 @@
 * {
+   
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -637,7 +638,10 @@ body {
   margin-bottom: 20px;
 }
 
-.con .hero-btn {
+
+
+
+.hero-btn {
   background: #ffcc00;
   color: #333;
   text-decoration: none;
@@ -681,6 +685,54 @@ body {
   display: flex;
   gap: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.tt{
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 30px 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+
+.bezniss__btn {
+  width: 300;
+  padding: 14px 20px;
+  background: #ffe500;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .tt{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .bezniss__btn {
+    width: 100%;
+    
+  }
+}
+
 
 @media (max-width: 768px) {
   .car {
@@ -920,6 +972,11 @@ body {
 body {
   background: #ebedf0;
 }
+body{
+
+  background: #EBEDF0;
+
+}
 .p3 {
 }
 .p4 {
@@ -971,3 +1028,80 @@ body {
     text-align: center;
   }
 }
+
+.grid-container{
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+ 
+.grid-cards{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+}  
+
+ .grid-card:nth-child(1),
+ .card-card:nth-child(4), 
+ .grid-card:nth-child(5), 
+ .grid-card:nth-child(8){
+  grid-column: span 2;
+}
+.grid-card{
+  width: 550px;
+border-radius: 20px;
+padding: 20px;
+background: #FFFFFF;
+
+}
+ .grid-title{
+  margin-bottom: 79px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
